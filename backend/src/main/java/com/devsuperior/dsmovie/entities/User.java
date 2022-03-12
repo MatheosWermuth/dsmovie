@@ -18,9 +18,9 @@ public class User {
 	public User() {
 	}
 
-	public User(Long id, String emai) {
+	public User(Long id, String email) {
 		this.id = id;
-		this.email = emai;
+		this.email = email;
 	}
 
 	public Long getId() {
@@ -31,12 +31,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getEmai() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmai(String emai) {
-		this.email = emai;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }
